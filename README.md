@@ -1,2 +1,2 @@
 # LittleProgram
- Click Image Produce Sound 
+1. Click Image and Produce Sound 
