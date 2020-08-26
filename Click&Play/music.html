@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+    window.onload = function(){
+      document.getElementsByClassName('demo')[0].onclick = function playAudio() {
+       //alert('Good');
+       var x = document.getElementsByClassName('myAudio')[0];
+       x.play();
+      }
+    };
+
+    </script>
+  </head>
+  <body>
+    <!---Google Drive Link: "https://docs.google.com/uc?export=download&id=1g3f0r0x6NdWrnrJTxjaW9Xis42z14aWr"--->
+    <img class="demo" src="https://www.intheblack.com/-/media/intheblack/allimages/small-business/2020/illustration-microphone-headphone.jpg?rev=4b637082c8a14807ab612794b6d9271f" alt="img-1">
+    <audio class="myAudio">
+      <source src="https://docs.google.com/uc?export=download&id=10sMzCMiu8NmtsDLLdTnwiHUZOdbUmrI6" type="audio/mpeg">
+    </audio>
+  </body>
+</html>
