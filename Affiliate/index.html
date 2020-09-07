@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Please Wait...</title>
+      <script src="index.js" charset="utf-8"></script>
+      <!-- Calling the font Galada from Google font-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Galada">
+      <style>
+         /*CSS for the "Waiting~" font in the middle*/
+         body {
+         background: #2e2e2e;
+         min-height: 100%;
+         }
+         h1 {
+         position: absolute;
+         top:15%;
+         left:25%;
+         color: hsla(0,0%,100%,.3);
+         font: 1000 1000% Baskerville, 'Galada', Palatino, serif;
+         }
+         @keyframes loading {
+         from { max-width: 0em; }
+         }
+         h1:before {
+         content: attr(data-content);
+         position: absolute;
+         overflow: hidden;
+         max-width: 12em;
+         color: white;
+         animation: loading 3s linear;
+         }
+         /* Font for the "Redirecting to Payment"*/
+         h3{
+           position: absolute;
+           top:53%;
+           left:38%;
+           font: 210% 'Galada', serif;
+           color: #f8f8f8;
+         }
+
+      </style>
+   </head>
+   <body>
+      <h1 data-content="Experiment~"></h1>
+      <h3>Try the new things in future</h3>
+   </body>
+</html>
